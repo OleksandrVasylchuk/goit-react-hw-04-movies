@@ -12,7 +12,7 @@ body {
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 13px;
   color: #cccccc;
-  background-image: url(http://zornet.ru/_fr/56/9734720.jpg);
+  background-image: url("./Image/background.jpg");
   background-attachment: fixed;
   background-color: #000000;
   background-position: top center;

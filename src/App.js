@@ -30,7 +30,7 @@ function App() {
           <div style={{ textAlign: "center", marginTop: "80px" }}>
             <Loader
               type="Circles"
-              color="#00BFFF"
+              color="#ffd800"
               height={100}
               width={100}
               timeout={3000} //3 secs
