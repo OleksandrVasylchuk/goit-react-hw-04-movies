@@ -18,10 +18,6 @@ const HomeSubView = lazy(
   () => import("./views/HomeSubView") /* webpackChunkName: "HomeSubView" */
 );
 
-const NotFoundView = lazy(
-  () => import("./views/NotFound") /* webpackChunkName: "NotFound" */
-);
-
 function App() {
   return (
     <Container>
@@ -54,7 +50,7 @@ function App() {
           </Route>
 
           <Route>
-            <NotFoundView />
+            <HomeView />
           </Route>
         </Switch>
       </Suspense>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useRouteMatch, useLocation } from "react-router-dom";
+import { useHistory, Link, useRouteMatch, useLocation } from "react-router-dom";
 import * as themoviedbAPI from "../services/movieteka-api";
 import styles from "./Views.module.css";
 import noImageAv from "../Image/noImageAvailable.jpg";
@@ -9,11 +9,13 @@ export default function HomeView() {
   const [movies, setMovies] = useState([]);
   const location = useLocation();
   const [error, setError] = useState();
+  const history = useHistory();
 
   useEffect(() => {
     themoviedbAPI
       .getTrendingMovies()
       .then((data) => {
+        history.push("/");
         setMovies(data.results);
       })
       .catch((error) => setError(error));
