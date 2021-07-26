@@ -5,9 +5,9 @@
     "static/js/0.a0978cd7.chunk.js.map": "/goit-react-hw-05-movies/static/js/0.a0978cd7.chunk.js.map",
     "cast-view.js": "/goit-react-hw-05-movies/static/js/cast-view.341ebcfe.chunk.js",
     "cast-view.js.map": "/goit-react-hw-05-movies/static/js/cast-view.341ebcfe.chunk.js.map",
-    "main.css": "/goit-react-hw-05-movies/static/css/main.127ece39.chunk.css",
-    "main.js": "/goit-react-hw-05-movies/static/js/main.98f77274.chunk.js",
-    "main.js.map": "/goit-react-hw-05-movies/static/js/main.98f77274.chunk.js.map",
+    "main.css": "/goit-react-hw-05-movies/static/css/main.65d50cc6.chunk.css",
+    "main.js": "/goit-react-hw-05-movies/static/js/main.e933ecdb.chunk.js",
+    "main.js.map": "/goit-react-hw-05-movies/static/js/main.e933ecdb.chunk.js.map",
     "review-view.js": "/goit-react-hw-05-movies/static/js/review-view.6bc5f314.chunk.js",
     "review-view.js.map": "/goit-react-hw-05-movies/static/js/review-view.6bc5f314.chunk.js.map",
     "runtime-main.js": "/goit-react-hw-05-movies/static/js/runtime-main.72167b7c.js",
@@ -30,8 +30,9 @@
     "static/css/5.aef21380.chunk.css.map": "/goit-react-hw-05-movies/static/css/5.aef21380.chunk.css.map",
     "static/css/6.aef68857.chunk.css.map": "/goit-react-hw-05-movies/static/css/6.aef68857.chunk.css.map",
     "static/css/7.9de35f1e.chunk.css.map": "/goit-react-hw-05-movies/static/css/7.9de35f1e.chunk.css.map",
-    "static/css/main.127ece39.chunk.css.map": "/goit-react-hw-05-movies/static/css/main.127ece39.chunk.css.map",
+    "static/css/main.65d50cc6.chunk.css.map": "/goit-react-hw-05-movies/static/css/main.65d50cc6.chunk.css.map",
     "static/js/5.5c58dcae.chunk.js.LICENSE.txt": "/goit-react-hw-05-movies/static/js/5.5c58dcae.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/goit-react-hw-05-movies/static/media/background.c935edf2.jpg",
     "static/media/noImageAvailable.jpg": "/goit-react-hw-05-movies/static/media/noImageAvailable.2f5edcd4.jpg",
     "static/media/nophoto.e37e09cb.jpg": "/goit-react-hw-05-movies/static/media/nophoto.e37e09cb.jpg"
   },
@@ -39,7 +40,7 @@
     "static/js/runtime-main.72167b7c.js",
     "static/css/5.aef21380.chunk.css",
     "static/js/5.5c58dcae.chunk.js",
-    "static/css/main.127ece39.chunk.css",
-    "static/js/main.98f77274.chunk.js"
+    "static/css/main.65d50cc6.chunk.css",
+    "static/js/main.e933ecdb.chunk.js"
   ]
 }
