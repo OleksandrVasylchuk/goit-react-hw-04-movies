@@ -6,24 +6,20 @@ import Loader from "react-loader-spinner";
 import Container from "./Components/Container/Container";
 import AppBar from "./Components/AppBar/AppBar";
 
-// const AppBar = lazy(() =>
-//   import("./components/AppBar/" /* webpackChunkName: "app-bar" */)
-// );
-
-const HomeView = lazy(() =>
-  import("./views/HomePage" /* webpackChunkName: "home-view" */)
+const HomeView = lazy(
+  () => import("./views/HomeView") /* webpackChunkName: "HomeView" */
 );
 
-const MoviesView = lazy(() =>
-  import("./views/MoviesPage" /* webpackChunkName: "mvies-view" */)
+const MoviesView = lazy(
+  () => import("./views/MoviesView") /* webpackChunkName: "MoviesView" */
 );
 
-const HomeSubView = lazy(() =>
-  import("./views/MovieDetailsPage" /* webpackChunkName: "home-sub-view" */)
+const HomeSubView = lazy(
+  () => import("./views/HomeSubView") /* webpackChunkName: "HomeSubView" */
 );
 
-const NotFoundView = lazy(() =>
-  import("./views/NotFound" /* webpackChunkName: "not-found-view" */)
+const NotFoundView = lazy(
+  () => import("./views/NotFound") /* webpackChunkName: "NotFound" */
 );
 
 function App() {

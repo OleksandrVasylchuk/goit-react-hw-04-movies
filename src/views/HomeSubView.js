@@ -14,7 +14,7 @@ import noImageAv from "../Image/noImageAvailable.jpg";
 import styles from "./Views.module.css";
 
 const CastView = lazy(() =>
-  import("./Cast" /* webpackChunkName: "cast-view" */)
+  import("./CastView" /* webpackChunkName: "cast-view" */)
 );
 
 const ReviewsView = lazy(() =>
