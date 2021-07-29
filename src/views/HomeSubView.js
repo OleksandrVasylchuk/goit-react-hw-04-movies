@@ -60,7 +60,7 @@ export default function HomeSubView() {
               width="250"
             />
             <div className={styles.about}>
-              <h1>{movie.title}</h1>
+              <h1 className={styles.movieTitle}>{movie.title}</h1>
               <p>User Score: {movie.vote_average * 10}%</p>
               <p className={styles.overview}>
                 Overview

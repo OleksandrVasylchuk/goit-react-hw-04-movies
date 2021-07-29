@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import * as themoviedbAPI from "../services/movieteka-api";
+import styles from "./Views.module.css";
 
 export default function ReviewsView({ moviesId }) {
   const [reviews, setReviews] = useState([]);
@@ -14,7 +15,7 @@ export default function ReviewsView({ moviesId }) {
 
   return (
     <>
-      <div>
+      <div className={styles.review}>
         {reviews.length > 0 ? (
           <ul>
             {reviews.map((review) => (

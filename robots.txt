@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /admin
+Disallow: *?q=
+Disallow: *?sort=
+Disallow: *?brand=
+Disallow: *?min=
+Disallow: *?cost=
+Disallow: *?max=
+Disallow: *ad.php
+
+Sitemap: [https://www.thanhtungaudio.com/sitemap.xml]
